@@ -9,6 +9,7 @@ function Shelf(props) {
     })
     return (
         <div>
+            <h2 className='your-shelf'> Your Shelf </h2>
             <button className='clear-shelf' onClick={props.clearShelf}> Clear Shelf </button>
             <br></br>
             <ul className='shelf-list'>
