@@ -25,26 +25,34 @@ code {
   margin: 0;
 }
 
-.body-box{
-
+.images {
+  height: 220px;
+  width: 150px;
 }
 
-.interactions{
+.booklist-box{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.img-text{
+margin:0;
+margin-left: 20px;
+width: 100px;
+}
+
+.allbook-box{
   display: flex;
-  justify-content: space-between;
-  margin-right: 750px;
-  margin-left: 750px;
-}
-
-.display{
-}
-
-.book-list{
-  display: flex;
-  height: 500px;
-  width: 1000px;
   flex-wrap: wrap;
+  margin: 30px;
+  height: 500px;
+  width: 1100px;
+  justify-content: space-evenly;
 }
 
-
-
+.clear-shelf{
+  display: flex;
+  position: absolute;
+  right: 20%;
+  top: 15%;
+}

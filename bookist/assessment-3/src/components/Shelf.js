@@ -8,10 +8,13 @@ function Shelf(props) {
         )
     })
     return (
-        <div>
-            <h1> I am here </h1>
-            {mappedTitles}
+        <div className='clear-shelf'>
+            <br></br>
+            <br></br>
+            <br></br>
             <button onClick={props.clearShelf}> Clear Shelf </button>
+            {mappedTitles}
+
         </div>
     )
 
