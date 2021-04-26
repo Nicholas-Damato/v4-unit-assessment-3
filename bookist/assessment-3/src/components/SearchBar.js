@@ -4,7 +4,7 @@ class SearchBar extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            userInput: ''
+            userInput: '',
         }
 
     }
@@ -21,7 +21,7 @@ class SearchBar extends Component {
     render() {
         return (
             <div className='search-stuff'>
-                <input value={this.state.userInput} onChange={(e) => this.handleChange(e.target.value)} />
+                <input value={this.state.userInput} placeholder='Search Here!' onChange={(e) => this.handleChange(e.target.value)} />
                 <button onClick={this.handleClick}> Search </button>
                 <button onClick={this.props.reset}> Clear Search </button>
             </div>
